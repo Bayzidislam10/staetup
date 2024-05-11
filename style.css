@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* nav desgin start */
+header{
+    height: 70px;
+    padding: 15px 4%;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    background: #DEFFF0;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+.logo img{
+    width: 110px;
+    cursor: pointer;
+}
+
+.nav ul li{
+    float: left;
+    padding: 10px 15px;
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    transition: .2s;
+}
+
+.nav ul li a:hover{
+    color: gray;
+}
+
+.nav-button{
+    margin-right: 20px;
+    
+}
+
+.nav-button a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-right: 10px;
+    color: black;
+}
+
+.nav-button .nav-btn{
+    padding: 10px 20px;
+    border-radius: 60px;
+    font-weight: bolder;
+    transition: .4s;
+    border: 2px solid;
+    background: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.nav-btn:hover{
+    background:#022F36;
+    color: white;
+    transition: .4s;
+}
+
+
+
+.icon-area{
+    position: fixed;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background: white;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    padding: 5px 0px;
+    z-index: 1;
+}
+.icon-area a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+.icon-area a i{
+    color: black;
+    transition: .4s;
+    font-size: 1.3rem;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-twitter:hover{
+    color: skyblue;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-whatsapp:hover{
+    color: greenyellow;
+}
+/* nav desgin end */
+
+.banner{
+    width: 100%;
+    height: 700px;
+    background: #DEFFF0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3% 0% 0% 5%;
+    width: 60%;
+}
+.banner-img{
+    width: 400px;
+    height: 400px;
+    background:transparent;
+    width: 40%;
+    margin-bottom: 150px;
+    margin-right: 80px;
+    text-align: center;
+}
+.hello{
+    font-size: 15px;
+    margin-left: 30px;
+}
+.bold-text{
+    font-size: 60px;
+    padding: 20px;
+    
+}
+.money{
+    font-weight: bold;
+}
+.p-at{
+    font-size: 17px;
+    margin-left: 30px;
+    padding: 0px 210px 30px 0px;
+}
+button{
+
+    margin-left: 30px;
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    transition: .4s;
+    cursor: pointer;
+}
+.banner-btn:hover{
+    background: #022F36;
+    color: white;
+    transition: .4s;
+}
+.banner::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.banner-list ul{
+    text-align: center;
+    display: flex;
+    list-style: none;
+    background: #DEFFF0;
+    width: 100%;
+    
+}
+.banner-list  li{
+    padding: 50px 55px;
+    font-size: 12px;
+}
+
+.text-p{
+    text-align: center;
+    padding: 50px;
+}
+.Precise{
+    font-size: 50px;
+    padding: 50px 25%;
+}
+.Page{
+    padding: 10px 30%;
+}
+.icon-text{
+    display: flex;
+    padding: 0 5%;
+}
+.text-card{
+    width: 33.33%;
+    text-align: center;
+    padding: 0 20px;
+}
+.icon-bold-text{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+}
+.Quickly{
+    padding: 5px 20px;
+}
+.icon i{
+    background-color: aquamarine;
+    /* width: 50px;
+    height: 50px; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .4s;
+}
+.icon i:hover{
+    background-color: rgb(198, 73, 202);
+    transition: .4s;
+}
+
+.card-your{
+    display: flex;
+    padding: 5% 5%;
+}
+.your-img{
+    width: 55%;
+    
+}
+.your-text{
+    margin-top: 80px;
+    width: 45%;
+    padding: 0 2% ;
+}
+.your-img img{
+    margin: 0 50px;
+    text-align: center;
+    width: 600px;
+    height: auto;
+    border: 50px solid rgba(218, 218, 59, 0.692);
+    border-bottom: none;
+    border-radius: 25px;
+}
+.your-p{
+    font-size: 50px;
+}
+.Pagebolt{
+    padding: 20px 0;
+}
+h4{
+    display: inline;
+}
+.fas{
+    border-radius: 50%;
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(90, 90, 153);
+}
+
+.For-card{
+    display: flex;
+    padding: 10% 7%;
+    background: #DEFFF0;
+}
+.for-text{
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.for-img{
+    width: 55%;
+}
+.for-img img{
+    width: 600px;
+    height: auto;
+}
+.for-p{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.Forecas-card{
+    display: flex;
+    padding: 10% 7%;
+    
+}
+.Forecas-img{
+    width: 55%;
+}
+.Forecas-text{
+    width: 45%;
+    padding: 0 3%;
+    padding-top: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+.Forecas-img img{
+    width: 600px;
+    height: auto;
+    border: 50px solid #FFCFE0;
+    border-radius: 25px;
+}
+.Our{
+    padding: 10px 20px;
+} 
+.card-btn{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px 15px;
+}
+.continer{
+    background: #022F36;
+}
+.recent-card{
+    width: 100%;
+    height: 450px;
+    
+}
+.bold1-text{
+    padding: 80px 0;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.recent-card{
+    padding: 2% 7%;
+    display: flex;
+    
+}
+.card{
+    width: 33.33%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img-card{
+    width: 380px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 220px;
+}
+.img-card img{
+    width: 380px ;
+    align-items: center;
+    transition: .4s ease-in-out;
+}
+h5{
+    font-size: 1.3rem;
+    color: white;
+    padding: 15px 0;
+}
+h6{
+    color: #ffffff;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.img-card img:hover{
+    transform: scale(1.2);
+}
+.text-div{
+    padding: 20px 0;
+}
+.happy-h1{
+    text-align: center;
+    font-size: 50px;
+    color: #022F36;
+    padding: 60px;
+}
+.happy-div{
+    padding: 0 7%;
+    
+}
+.happy-box{
+    display: flex;
+}
+.happy-card{
+    width: 33.33%;
+    text-align: center;
+    padding: 50px 20px;
+}
+.happy-lorem{
+    color: #022F36;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+.mic{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #022F36;
+    opacity: 0.8;
+    padding: 10px;
+}
+.ul{
+    color: #022F36;
+    opacity: 0.5;
+    padding: 10px;
+}
+.happy-icon{
+    padding: 10px;
+}
+.need-div{
+    width: 100%;
+    height: 400px;
+    background: #78EFE6;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.need{
+    color: #060A23;
+    font-size: 50px;
+    padding: 50px 25%;
+    text-align: center;
+}
+.fin{
+    font-weight: bold;
+}
+.need-btn{
+    text-align: center;
+}
+footer{
+    background: #022F36;
+    padding-bottom: 20px;
+}
+.up{
+    width: 100%;
+    display: flex;
+    padding: 5% 9%;
+}
+.footer-car1{
+    width: 39%;
+    padding-right:  5%;
+}
+.footer-car1 img{
+    width: 130px;
+    padding-bottom: 15px;
+}
+.footer-car2{
+    width:20% ;
+}
+.footer-car3{
+    width: 20%;
+}
+.footer-car4{
+    width: 21%;
+}
+.footer-h1{
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 0;
+    
+}
+.footer-li li{
+    list-style: none;
+    color: white;
+    padding: 5px 0px;
+    opacity: 0.6;
+}
+.com{
+    font-size: 1rem;
+    color: white;
+    font-weight: 100;
+    opacity: 0.6;
+}
+.unl{
+    color: white;
+    padding: 20px 0px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+hr{
+    background-color: black;
+    margin: 0 9%;
+    opacity: 0.5;
+    
+}
+.down{
+    padding: 2% 9%;
+    display: flex;
+}
+.down1 p{
+    color: white;
+    opacity: 0.5;
+}
+.down2{
+    margin-left: 240px;
+    
+}
+.down2 a{
+    right: 0;
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+    padding: 50px;
+    padding-right: 0;
+    
+}
+.copy{
+    font-size: 1.2rem;
+    color: #7afcd0;
+    opacity:0.8;
+}
